@@ -33,13 +33,14 @@ Answser:
 # # # #
 # # # # #
 ```
+<img src="icon.png" width="30">
 
 ### 5. SumAndAverage (Loop): Write a program called SumAndAverage to produce the sum of 1, 2, 3, ..., to 100. Also compute and display the average. The output shall look like.
 
-
+<img src="icon.png" width="30">
 
 
 ### 6. HarmonicSum (Loop): Write a program called HarmonicSum to compute the sum of a harmonic series, as shown below, where n=50000. The program shall compute the sum from left-to-right as well as from the right-to-left. Obtain the difference between these two sums and explain the difference. Which sum is more accurate?
 
 <img src="ExerciseBasics_HarmonicSum.png"> 
-
+<img src="icon.png" width="30">
