@@ -2,7 +2,9 @@
 
 Here is the list of basic questions for assignment that Trainee have to complete:
 
-### 1. Write a Java method to check a number is odd or even number
+### 1. CheckOddEven (if-else): Write a program called CheckOddEven which prints "Odd Number" if the int variable “number” is odd, or “Even Number” otherwise. The program shall always print “BYE!” before exiting.
+
+Hints: n is an even number if (n % 2) is 0; otherwise, it is an odd number.
 <img src="icon.png" width="30"> 
 _if-else_
 
