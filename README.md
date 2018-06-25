@@ -25,12 +25,13 @@ Answser:
 
 
 ### 4. Write a program to print to screen the lines as below:
+
 *
-**
-***
-****
-*****
-******
+* *
+* * *
+* * * *
+* * * * *
+* * * * * *
 
 
 ### 5. SumAndAverage (Loop): Write a program called SumAndAverage to produce the sum of 1, 2, 3, ..., to 100. Also compute and display the average. The output shall look like.
