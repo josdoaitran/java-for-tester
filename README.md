@@ -24,12 +24,13 @@ To test whether a number x is a prime number, we could apply the definition by d
 
 [Answser 2:](answers/Q2.java)
 
-### 3. Write a program called CheckPassFail which prints "PASS" if the int variable "mark" is more than or equal to 50; or prints "FAIL" otherwise. The program shall always print “DONE” before exiting. 
-<img src="icon.png" width="30"> 
-_CheckPassFail (if-else)_ 
-
+### 3. Write a program to calculate he sum of odd numbers from 1 to 1000 is 250000 and The sum of even numbers from 1 to 1000 is 250000.
 Hint:
-Answser:
+We will will appy Q1 and Loop to handle this question.
+
+<img src="icon.png" width="30">
+
+[Answser 3:](answers/Q3.java)
 
 
 ### 4. Write a program to print to screen the lines as below:
