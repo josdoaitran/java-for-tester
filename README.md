@@ -10,7 +10,7 @@ _if-else_
 
 <img src="icon.png" width="30"> 
 
-[Answser:](Anwser/Q1.java)
+[Answser 1:](answers/Q1.java)
 
 ## 2. Write a Java method to check whether the nunber is prime number or not
 
