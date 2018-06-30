@@ -53,3 +53,9 @@ We will will appy Q1 and Loop to handle this question.
 
 <img src="Q6-ExerciseBasics_HarmonicSum.png"> 
 <img src="icon.png" width="30">
+
+
+### 7. 
+<img src="icon.png" width="30">
+
+### 8. 
