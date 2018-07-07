@@ -33,7 +33,24 @@ We will will appy Q1 and Loop to handle this question.
 [Answser 3:](answers/Q3.java)
 
 
-### 4. Write a program to print to screen the lines as below:
+### 4. Exercise SquareBoard (nested-loop): Write a program called SquareBoard that displays the following n×n (n=5) pattern using two nested for-loops.
+
+```
+# # # # #
+# # # # #
+# # # # #
+# # # # #
+# # # # #
+```
+*Command*
+
+Your program should use only two output statements, one EACH of the followings:
+System.out.print("# ");   // print # and a space, without newline
+System.out.println();     // print a newline
+* Hints:
+
+
+Write a program to print to screen the lines as below:
 
 ```
 # 
