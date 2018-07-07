@@ -42,15 +42,14 @@ We will will appy Q1 and Loop to handle this question.
 # # # # #
 # # # # #
 ```
-*Command*
+*Command & Hints * 
 
 Your program should use only two output statements, one EACH of the followings:
 System.out.print("# ");   // print # and a space, without newline
 System.out.println();     // print a newline
-* Hints:
 
 
-Write a program to print to screen the lines as below:
+* Write a program to print to screen the lines as below:
 
 ```
 # 
