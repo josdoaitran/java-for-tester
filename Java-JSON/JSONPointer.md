@@ -44,3 +44,6 @@ The output from this code is:
     ]
 }
 ```
+
+Reference: https://dzone.com/articles/son-processing-11-the-json-pointer-challenge
+
