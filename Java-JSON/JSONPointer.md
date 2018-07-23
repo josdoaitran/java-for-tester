@@ -13,3 +13,24 @@ And the code in the following snippet replaces the value at the 3rd index positi
 pointer = Json.createPointer("/likes/2");
 JsonObject newJsonObject = pointer.replace(jsonObject, Json.createValue("Ice Cream"));
 ```
+Putting it all together, you have code that adds an element of the likes array and the replaces an element. The full code snippet looks like this:
+```
+JsonObject jsonObject = 
+    Json.createReader(new StringReader(target)).readObject();
+JsonPointer pointer = Json.createPointer("/likes/0");
+jsonObject = pointer.add(jsonObject, Json.createValue("Java EE 8"));
+pointer = Json.createPointer("/likes/2");
+JsonObject newJsonObject = 
+    pointer.replace(jsonObject, Json.createValue("Ice Cream"));
+```
+The output from this code is:
+```
+{
+    "name": "Duke",
+    "likes": [
+        "Java EE 8",
+        "Java",
+        "Ice Cream"
+    ]
+}
+```
