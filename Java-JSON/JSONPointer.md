@@ -1,5 +1,15 @@
 # JSON Pointer
 
+Let’s take a look at an example. Given the JSON document below, the first element in the likes array would be referred to via the JSON pointer expression: /likes/0.
+```
+{
+    "name": "Duke",
+    "likes": [
+        "Java",
+        "Coffee"
+    ]
+}
+```
 The entry API is the JsonPointer interface. An instance is created by calling the static factory method createPointer() on the Json class. The code snippet below creates a JsonPointer and references the second element in the likes array:
 ```
 JsonPointer pointer = Json.createPointer("/likes/0");
