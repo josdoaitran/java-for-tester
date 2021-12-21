@@ -1,6 +1,6 @@
 ## Lession 0: Setup and Install Java environment
 
-- Download install Java
+### Download install Java
 Refer link: https://www.youtube.com/watch?v=JMWKlhblyq4
 
 On Windown:
@@ -9,6 +9,7 @@ On Windown:
 
 On Mac / Linux:
 
-- Install Editor tool:
+### Install Editor tool:
 Propose: Using IntellIJ: https://www.jetbrains.com/idea/download/#section=windows
 
+## Lession 1: 
