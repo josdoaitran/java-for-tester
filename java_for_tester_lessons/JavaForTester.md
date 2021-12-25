@@ -1,6 +1,8 @@
 ## Lession 0: Setup and Install Java environment
 
 ### Download install Java
+Using Java 8, during this course. Now, We can base on Java Oracle or Open JDK to install and set up on your local workstation.
+(Java Oracle: https://www.oracle.com/java/technologies/downloads/, Java Open JDk: https://openjdk.java.net/install/)
 Refer link: https://www.youtube.com/watch?v=JMWKlhblyq4
 
 - On Windown 10/11:
