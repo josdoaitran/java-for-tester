@@ -18,4 +18,12 @@ Refer link: https://www.youtube.com/watch?v=JMWKlhblyq4
 There are many editor tool (The application that we use to write and program our code) for Java programing (like: Netbean, Eclipe, Visual Code, ...)
 We propose to use IntellIJ: https://www.jetbrains.com/idea/download/#section=windows
 
+Note: Setup java environment in IntelliJ:
+https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html#get-started
+
 ## Lession 1: First Java codes
+After, we complete the setup steps: Java and Editor code, We can start with the first Java code, application.
+
+```
+
+```
