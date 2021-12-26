@@ -25,5 +25,12 @@ https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-applica
 After, we complete the setup steps: Java and Editor code, We can start with the first Java code, application.
 
 ```
+package com.testing.for.everyone.first.application
+
+public classs SayHelloJava(){
+  public static void main (String[] args){
+    System.out.println("Say Hello to everyone - Testing for Everyone")
+  }
+}
 
 ```
