@@ -11,5 +11,9 @@ public class ExampleTestCases {
 
         String check =  System.getProperty("checkParam");
         System.out.println(check);
+        if (!runner.isEmpty()){
+            System.setProperty("checkParam", "abcadsdsad");
+            System.out.println(System.getProperty("checkParam"));
+        }
     }
 }
