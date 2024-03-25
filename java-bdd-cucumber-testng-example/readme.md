@@ -66,8 +66,10 @@ Setup and run TestNG Cucumber test push report to Elastic and Visual on Kibana
 
 - Setup an Elastic and Kibana local
 - Following this file: `docker-compose.yml`
-
-
+### Setup ElasticSearch from kibana
+- Access to http://localhost:5601/app/management/data/index_management/indices
+- Create a template: Name: `automation-cucumber-test`, Index patterns `result`
+- 
 
 # References:
 - Cucumber Java in 10 minutes: https://cucumber.io/docs/guides/10-minute-tutorial/?lang=java
