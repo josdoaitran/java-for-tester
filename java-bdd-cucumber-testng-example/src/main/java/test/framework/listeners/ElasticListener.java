@@ -22,16 +22,16 @@ public class ElasticListener implements ConcurrentEventListener {
 
         String scenarioName = testCase.getName();
         picoContainer.dataStore.put("scenarioName", scenarioName);
-        String featureName = testCase.getUri().toString().split(":")[2].split("features/")[1];
+        String featureName = testCase.getUri().toString().split("features/")[1];
         picoContainer.dataStore.put("featureName", featureName);
         picoContainer.dataStore.put("duration", result.getDuration());
 
         if (status.toString().equals("PASSED")) {
-            sendDetailsToElastic(result, picoContainer, "PASS");
+            sendDetailsToElastic(result, picoContainer, "PASSED");
         } else if (status.toString().equals("FAILED")) {
             picoContainer.dataStore.put("error", error.getMessage());
             System.out.println("Error =" + error.getMessage());
-            sendDetailsToElastic(result, picoContainer, "FAIL");
+            sendDetailsToElastic(result, picoContainer, "FAILED");
         } else if (status.toString().equals("UNDEFINED")) {
             System.out.println("UNDEFINED steps in " + testCase.getName());
             sendDetailsToElastic(result, picoContainer, "UNDEFINED");

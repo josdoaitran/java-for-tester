@@ -34,8 +34,7 @@ public class ElasticUtils {
                 map.put("logs", picoContainer.dataStore.get("error"));
             }
             Response response = given().header("Content-Type", "application/json")
-                    .log().all().
-                    body(map)
+                    .log().all().body(map)
                     .post(ElasticConfiguration.ELK_URL);
 
             Assert.assertEquals(response.statusCode(), 201);

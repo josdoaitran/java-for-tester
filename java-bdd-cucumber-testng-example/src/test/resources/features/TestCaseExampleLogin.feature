@@ -1,4 +1,4 @@
-Feature: Here is the tests to cover all test cases of Login and Logout features
+Feature: Here is the tests to cover all test cases of Login and Logout features Scenarios
 
   Scenario Outline: The Scenario to cover login Cases
     Given User have an account in System
