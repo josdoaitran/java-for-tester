@@ -41,6 +41,20 @@ This example project is show to how we can apply Java, TestNG, Cucumber to build
     <scope>test</scope>
 </dependency>
 ```
+
+- Add Log4J
+```agsl
+<dependency>
+     <groupId>org.slf4j</groupId>
+     <artifactId>slf4j-api</artifactId>
+     <version>${slf4j.version}</version>
+</dependency>
+<dependency>
+     <groupId>org.slf4j</groupId>
+     <artifactId>slf4j-simple</artifactId>
+     <version>${slf4j.version}</version>
+</dependency>
+```
 ## Write the example test cases in Gherkin language
 - As file: `TestCaseExampleLogin.feature`
 ## Define the steps definitions for each steps in each scenario of feature file.
