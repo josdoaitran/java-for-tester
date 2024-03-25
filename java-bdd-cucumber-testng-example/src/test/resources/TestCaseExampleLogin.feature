@@ -3,8 +3,8 @@ Feature: Here is the tests to cover all test cases of Login and Logout features
   Scenario Outline: The Scenario to cover login Cases
     Given User have an account in System
     When User navigate to Login page
-    And User login with <Login_Case> Credential via email and password
-    Then User login <Login Expectation>
+    And User login with "Login_Case" Credential via email and password
+    Then User login "Login Expectation"
 
     Examples:
       | Cases                     | Login_Case                          | Login Expectation                       |
@@ -15,8 +15,8 @@ Feature: Here is the tests to cover all test cases of Login and Logout features
   Scenario Outline: The Scenario to cover login Cases
     Given User have an account in System
     When User navigate to Login page
-    And User login with <Login_Case> Credential via SSO
-    Then User login <Login Expectation>
+    And User login with "Login_Case" Credential via SSO
+    Then User login "Login Expectation"
 
     Examples:
       | Cases                     | Login_Case                          | Login Expectation                       |
