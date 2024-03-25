@@ -7,5 +7,6 @@ public interface TestConfiguration {
     interface Plugin{
         String PRETTY = "pretty";
         String JSON = "json:target/test-reports/cucumber/cucumber.json";
+        String ELASTIC_LISTENER = "test.framework.listeners.ElasticListener";
     }
 }

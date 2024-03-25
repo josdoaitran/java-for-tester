@@ -7,7 +7,9 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeSuite;
 
 
-@CucumberOptions(plugin = {TestConfiguration.Plugin.PRETTY, TestConfiguration.Plugin.JSON, "test.framework.listeners.ElasticListener"},
+@CucumberOptions(plugin = {TestConfiguration.Plugin.PRETTY,
+        TestConfiguration.Plugin.JSON,
+        TestConfiguration.Plugin.ELASTIC_LISTENER},
         glue = {TestConfiguration.Glue.STEPS})
 public class TestRunner extends AbstractTestNGCucumberTests{
     protected static final Logger LOGGER = LoggerFactory.getLogger(TestRunner.class);
