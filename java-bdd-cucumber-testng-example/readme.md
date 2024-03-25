@@ -55,6 +55,7 @@ This example project is show to how we can apply Java, TestNG, Cucumber to build
      <version>${slf4j.version}</version>
 </dependency>
 ```
+
 ## Write the example test cases in Gherkin language
 - As file: `TestCaseExampleLogin.feature`
 ## Define the steps definitions for each steps in each scenario of feature file.
