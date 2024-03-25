@@ -50,4 +50,5 @@ This example project is show to how we can apply Java, TestNG, Cucumber to build
 # References:
 - Cucumber Java in 10 minutes: https://cucumber.io/docs/guides/10-minute-tutorial/?lang=java
 - Push Cucumber into elasticsearch:
-  https://github.com/AshisRaj/cucelastic-maven-plugin/blob/master/USAGE.md?plain=1
++ https://github.com/AshisRaj/cucelastic-maven-plugin
++ https://github.com/AshisRaj/cucelastic-maven-plugin/blob/master/USAGE.md?plain=1
