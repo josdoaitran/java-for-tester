@@ -2,7 +2,14 @@
 This example project is show to how we can apply Java, TestNG, Cucumber to build a test framework
 
 # Steps to build a test framework
-- Create a Java - Maven projects.
+- Create a Java 11 - Maven projects.
+```agsl
+<properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ </properties>
+```
 - Add the essential dependencies from https://mvnrepository.com/ for a Java project.
 ## List of Dependencies
 - Cucumber
