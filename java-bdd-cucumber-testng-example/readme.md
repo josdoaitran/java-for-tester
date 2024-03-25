@@ -59,6 +59,13 @@ This example project is show to how we can apply Java, TestNG, Cucumber to build
 ## Write the example test cases in Gherkin language
 - As file: `TestCaseExampleLogin.feature`
 ## Define the steps definitions for each steps in each scenario of feature file.
+- In the class: `LoginSteps.java`
+
+## Advanced and Bonus
+Setup and run TestNG Cucumber test push report to InflushDB and Visual on Grafana
+
+- Setup a influxdb and grafana local
+- Following these files: docker-compose.yml, Docker.grafana, Docker.influxdb
 
 
 

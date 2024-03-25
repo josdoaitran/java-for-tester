@@ -1,0 +1,5 @@
+From influxdb:1.8
+
+RUN /bin/bash -c "influxd run & sleep 5 && influx -execute 'CREATE DATABASE automation_test' && kill %1 && sleep 5"
+
+CMD ["influxd"]

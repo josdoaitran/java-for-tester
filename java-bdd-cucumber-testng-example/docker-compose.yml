@@ -1,0 +1,18 @@
+version: "3.4"
+
+services:
+  influxdb:
+    build:
+      context: .
+      dockerfile: Dockerfile.influxdb
+    ports:
+      - "8086:8086"
+
+  grafana:
+    build:
+      context: .
+      dockerfile: Dockerfile.grafana
+    links:
+      - influxdb
+    ports:
+      - "3000:3000"
