@@ -62,10 +62,10 @@ This example project is show to how we can apply Java, TestNG, Cucumber to build
 - In the class: `LoginSteps.java`
 
 ## Advanced and Bonus
-Setup and run TestNG Cucumber test push report to InflushDB and Visual on Grafana
+Setup and run TestNG Cucumber test push report to Elastic and Visual on Kibana
 
-- Setup a influxdb and grafana local
-- Following these files: docker-compose.yml, Docker.grafana, Docker.influxdb
+- Setup an Elastic and Kibana local
+- Following this file: `docker-compose.yml`
 
 
 
