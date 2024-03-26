@@ -69,13 +69,13 @@ This example project is show to how we can apply Java, TestNG, Cucumber to build
 
 ## Advanced and Bonus
 Setup and run TestNG Cucumber test push report to Elastic and Visual on Kibana
-
 - Setup an Elastic and Kibana local
 - Following this file: `docker-compose.yml`
 - Run test:
 ```angular2html
 -ea -Dcucumber.features="src/test/resources" -DpushToElastic=yes"
 ```
+
 # References:
 - Cucumber Java in 10 minutes: https://cucumber.io/docs/guides/10-minute-tutorial/?lang=java
 - Push Cucumber into elasticsearch:

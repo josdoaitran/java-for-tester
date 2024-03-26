@@ -2,11 +2,15 @@ package test.framework.listeners;
 
 import io.cucumber.plugin.ConcurrentEventListener;
 import io.cucumber.plugin.event.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import test.framework.TestControl;
 import test.framework.utils.PicoContainer;
 
 import static test.framework.elastic.ElasticUtils.sendDetailsToElastic;
 
 public class ElasticListener implements ConcurrentEventListener {
+    protected static final Logger LOGGER = LoggerFactory.getLogger(ElasticListener.class);
 
     @Override
     public void setEventPublisher(EventPublisher publisher) {
@@ -30,10 +34,10 @@ public class ElasticListener implements ConcurrentEventListener {
             sendDetailsToElastic(result, picoContainer, "PASSED");
         } else if (status.toString().equals("FAILED")) {
             picoContainer.dataStore.put("error", error.getMessage());
-            System.out.println("Error =" + error.getMessage());
+            LOGGER.info("Error =" + error.getMessage());
             sendDetailsToElastic(result, picoContainer, "FAILED");
         } else if (status.toString().equals("UNDEFINED")) {
-            System.out.println("UNDEFINED steps in " + testCase.getName());
+            LOGGER.info("UNDEFINED steps in " + testCase.getName());
             sendDetailsToElastic(result, picoContainer, "UNDEFINED");
         }
 

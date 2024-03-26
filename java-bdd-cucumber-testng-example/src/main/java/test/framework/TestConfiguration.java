@@ -3,6 +3,7 @@ package test.framework;
 public interface TestConfiguration {
     interface Glue{
         String STEPS = "steps";
+        String CORE = "test.framework";
     }
     interface Plugin{
         String PRETTY = "pretty";

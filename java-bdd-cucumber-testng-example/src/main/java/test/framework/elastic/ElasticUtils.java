@@ -32,7 +32,7 @@ public class ElasticUtils {
             jsonBody.put("status", status);
             jsonBody.put("executionTime", LocalDateTime.now().toString());
             jsonBody.put("duration", picoContainer.dataStore.get("duration"));
-            jsonBody.put("build", TestControl.testCaseID);
+            jsonBody.put("testCaseID", TestControl.testCaseID);
             if (result.getStatus().toString().equals("FAILED")) {
                 jsonBody.put("logs", picoContainer.dataStore.get("error"));
             }
