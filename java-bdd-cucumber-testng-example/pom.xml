@@ -16,6 +16,7 @@
         <slf4j.version>1.7.30</slf4j.version>
         <influxdb.version>2.24</influxdb.version>
         <restassured.version>4.3.3</restassured.version>
+        <json-org.version>20190722</json-org.version>
     </properties>
     <dependencies>
         <dependency>
@@ -43,6 +44,11 @@
             <artifactId>rest-assured</artifactId>
             <version>${restassured.version}</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>${json-org.version}</version>
         </dependency>
     </dependencies>
 </project>
