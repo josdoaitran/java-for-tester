@@ -18,6 +18,5 @@ public class TestRunner extends AbstractTestNGCucumberTests{
     public static void setup() {
         LOGGER.info("Setup testing for each execution time");
     }
-
 }
 

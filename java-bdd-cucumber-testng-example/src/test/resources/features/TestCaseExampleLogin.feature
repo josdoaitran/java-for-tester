@@ -1,5 +1,6 @@
 Feature: Here is the tests to cover all test cases of Login and Logout features Scenarios
 
+  @TC-01 @SmokeTest
   Scenario Outline: The Scenario to cover login Cases
     Given User have an account in System
     When User navigate to Login page
@@ -12,6 +13,7 @@ Feature: Here is the tests to cover all test cases of Login and Logout features 
       | Case:2 Login unsuccessful | Invalid Credential                  | Login Unsuccessful                      |
       | Case:3 Login blocked Case | Valid Credential and Blocked Status | Login Unsuccessful with Blocked message |
 
+  @TC-02
   Scenario Outline: The Scenario to cover login Cases
     Given User have an account in System
     When User navigate to Login page

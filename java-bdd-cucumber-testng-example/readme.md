@@ -68,7 +68,8 @@ Setup and run TestNG Cucumber test push report to Elastic and Visual on Kibana
 - Following this file: `docker-compose.yml`
 ### Setup ElasticSearch from kibana
 - Access to http://localhost:5601/app/management/data/index_management/indices
-- Create a template: Name: `automation-cucumber-test`, Index patterns `result`
+- Create an index pattern: http://localhost:5601/app/management/kibana/indexPatterns
+name`automation-cucumber-test`, TimeField `I don't use time filed`
 - 
 
 # References:
@@ -76,3 +77,4 @@ Setup and run TestNG Cucumber test push report to Elastic and Visual on Kibana
 - Push Cucumber into elasticsearch:
 + https://github.com/AshisRaj/cucelastic-maven-plugin
 + https://github.com/AshisRaj/cucelastic-maven-plugin/blob/master/USAGE.md?plain=1
++ https://github.com/sreeju123/SeleniumCucumberFramework/blob/master/src/main/java/utils/ELKUtils.java

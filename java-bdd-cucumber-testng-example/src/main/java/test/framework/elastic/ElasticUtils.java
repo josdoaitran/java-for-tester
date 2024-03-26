@@ -8,6 +8,7 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
+import test.framework.TestControl;
 import test.framework.utils.PicoContainer;
 
 import java.time.LocalDateTime;
@@ -31,7 +32,7 @@ public class ElasticUtils {
             jsonBody.put("status", status);
             jsonBody.put("executionTime", LocalDateTime.now().toString());
             jsonBody.put("duration", picoContainer.dataStore.get("duration"));
-            jsonBody.put("Test Case ID", "TC-11"); // Can use this to filter the results in Kibana
+            jsonBody.put("build", TestControl.testCaseID);
             if (result.getStatus().toString().equals("FAILED")) {
                 jsonBody.put("logs", picoContainer.dataStore.get("error"));
             }
