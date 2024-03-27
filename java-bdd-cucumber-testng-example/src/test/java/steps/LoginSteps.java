@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 
 public class LoginSteps {
     @Given("User have an account in System")
@@ -24,7 +25,13 @@ public class LoginSteps {
     }
 
     @And("User login with {string} Credential via SSO")
-    public void userLoginWithLogin_CaseCredentialViaSSO(String typeCredential) {
+    public void userLoginWithLoginCaseCredentialViaSSO(String typeCredential) {
         System.out.println(String.format("User login with %s Credential via SSO", typeCredential));
+    }
+
+    @And("User login with Fail Credential via SSO")
+    public void userLoginWithLoginFailCaseCredentialViaSSO() {
+//        Simmulate failed case
+        Assert.assertEquals("1", "2");
     }
 }
