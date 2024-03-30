@@ -73,6 +73,8 @@ replay_pid*
 # .idea/modules
 # *.iml
 # *.ipr
+*/tmp/*
+*/tmp/
 
 # CMake
 cmake-build-*/
